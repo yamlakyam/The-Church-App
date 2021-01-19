@@ -46,6 +46,15 @@
         android:textAllCaps="false"
         android:textColor="#FFFFFF" />
 
+    <TextView
+        android:id="@+id/forgotPwLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="Forgot Password"
+        android:textColor="#d09a51" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

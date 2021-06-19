@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479763579227",
+    "project_id": "programs-c2138",
+    "storage_bucket": "programs-c2138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479763579227:android:f80347840af7e606b19a7e",
+        "android_client_info": {
+          "package_name": "com.aait.mychurch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479763579227-548f41kdm223lbfg0o96k2jj591nt55d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKf3gJrRT7O9TPEtv4f6ZzJN6JFLBRVHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479763579227-548f41kdm223lbfg0o96k2jj591nt55d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

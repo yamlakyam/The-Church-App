@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
                 signIn ->
                 if(signIn.isSuccessful){
                     Toast.makeText(this,"Signed in successfully!",Toast.LENGTH_LONG).show()
+                    startActivity( Intent(this, HomeActivity::class.java))
                 }
                 else{
                     Toast.makeText(this,"Signed in Failed!",Toast.LENGTH_LONG).show()

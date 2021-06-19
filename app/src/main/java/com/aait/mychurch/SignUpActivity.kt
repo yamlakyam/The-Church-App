@@ -81,8 +81,7 @@ class SignUpActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Created account successfully!", Toast.LENGTH_LONG)
                             .show()
-
-
+                        startActivity( Intent(this, HomeActivity::class.java))
                         sendEmailVerification()
 //                    startActivity()
                         finish()

@@ -17,17 +17,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         signupLink.setOnClickListener {
-            if(emailLogin.text.toString().trim().isEmpty()){
-                emailLogin.error="Email is required"
-                emailLogin.requestFocus()
-                return@setOnClickListener
-            }
-            if(passwordLogin.text.toString().trim().isEmpty()){
-                passwordLogin.error="Email is required"
-                passwordLogin.requestFocus()
-                return@setOnClickListener
-            }
-
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
 

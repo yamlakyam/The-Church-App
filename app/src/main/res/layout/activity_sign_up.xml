@@ -30,6 +30,7 @@
         android:ems="10"
         android:hint="First Name"
         android:inputType="textPersonName"
+        android:textColor="#ffffff"
         android:textColorHint="#774D40" />
 
     <EditText
@@ -39,6 +40,7 @@
         android:ems="10"
         android:hint="Last Name"
         android:inputType="textPersonName"
+        android:textColor="#ffffff"
         android:textColorHint="#774D40" />
 
     <EditText
@@ -48,6 +50,7 @@
         android:ems="10"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
         android:textColorHint="#774D40" />
 
     <EditText
@@ -67,6 +70,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColor="#ffffff"
         android:textColorHint="#774D40" />
 
     <EditText
@@ -76,6 +80,7 @@
         android:ems="10"
         android:hint="Confirm Password"
         android:inputType="textPassword"
+        android:textColor="#ffffff"
         android:textColorHint="#774D40" />
 
     <Button

@@ -10,7 +10,7 @@ import com.smarteist.autoimageslider.SliderViewAdapter
 import com.squareup.picasso.Picasso
 
 
-private class SliderAdapter(// creating a variable for
+ class SliderAdapter(// creating a variable for
     // context and array list.
     private val context: Context, mSliderItems: List<SliderData>) :
     SliderViewAdapter<SliderAdapter.SliderAdapterVH>() {
@@ -38,14 +38,13 @@ private class SliderAdapter(// creating a variable for
     }
 
     // view holder class for initializing our view holder.
-    internal inner class SliderAdapterVH(itemView: View) : ViewHolder(itemView) {
+    inner class SliderAdapterVH(itemView: View) : ViewHolder(itemView) {
         // variables for our view and image view.
         lateinit var itemView: View
-        var imageView: ImageView
+        var imageView: ImageView = itemView.findViewById(com.aait.mychurch.R.id.idIVimage)
 
         init {
             // initializing our views.
-            imageView = itemView.findViewById(com.aait.mychurch.R.id.idIVimage)
         }
     }
 

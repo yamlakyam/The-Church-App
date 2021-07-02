@@ -12,7 +12,7 @@ class MediaGVAdapter(context: Context, mediaCardList: ArrayList<MediaData?>?) :
     ArrayAdapter<MediaData?>(context, 0, mediaCardList!!) {
     @SuppressLint("ViewHolder")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        var listedView = convertView
+        var listedView = convertView;
 
         listedView =
             LayoutInflater.from(context)
